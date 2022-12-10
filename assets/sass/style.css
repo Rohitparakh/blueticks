@@ -4376,7 +4376,7 @@ Footer
   display: inline-block;
 }
 .footer__area-top-logo a img {
-  max-width: 150px;
+  max-width: 175px;
   position: relative;
   z-index: 99;
 }
@@ -4767,7 +4767,7 @@ Footer Top Two
   padding: 35px 50px;
 }
 .footer__top-item-logo a img {
-  max-width: 150px;
+  max-width: 175px;
   position: relative;
   z-index: 99;
 }
@@ -6445,7 +6445,7 @@ Menu Bar
   height: 20px;
 }
 .header__area-menu-bar-left-logo > a img {
-  max-width: 150px;
+  max-width: 175px;
   position: relative;
 }
 .header__area-menu-bar-main-menu ul li {
@@ -6715,7 +6715,7 @@ Menu Bar Two CSS
   display: inline-block;
 }
 .header__two-menu-bar-logo a img {
-  max-width: 150px;
+  max-width: 175px;
   position: relative;
   z-index: 999;
 }
