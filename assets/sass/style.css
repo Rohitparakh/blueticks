@@ -5658,6 +5658,7 @@ Services Two
   text-align: center;
   transition: all 0.4s ease-out 0s;
   padding: 60px;
+  min-height: 592px;
 }
 .services__two-item-area-icon {
   width: 120px;
