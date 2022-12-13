@@ -5028,8 +5028,12 @@ Sponsors
 }
 .sponsors__area-box .swiper-wrapper {
   display: flex;
-  justify-content: center;
+}
+.sponsors__area-box .swiper-wrapper .swiper-slide {
+  display: flex;
+  height: auto;
   align-items: center;
+  justify-content: center;
 }
 .sponsors__area-item {
   text-align: center;

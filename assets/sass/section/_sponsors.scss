@@ -19,10 +19,21 @@ Sponsors
         margin-bottom: 120px;
         padding-bottom: 45px;
         border-bottom: 1px solid $border1;
-        .swiper-wrapper{
+        // .swiper-wrapper{
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     flex-wrap: nowrap;
+        // }
+        .swiper-wrapper {
             display: flex;
-            justify-content: center;
+          
+           .swiper-slide {
+            display: flex;
+            height: auto;
             align-items: center;
+            justify-content: center;
+          }
         }
     }
     &-item {
