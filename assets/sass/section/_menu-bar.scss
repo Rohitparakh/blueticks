@@ -10,14 +10,14 @@ Menu Bar
             &-logo > {
                 a {
                     display: inline-block;
-                    background: $border4;
-                    padding: 11px 25px;
+                    // background: $border4;
+                    padding: 20px 25px;
                     padding-right: 40px;
-                    padding-top: 31px;
+                    // padding-top: 31px;
                     position: relative;
                     z-index: 999;
                     &::after {
-                        content: '';
+                        // content: '';
                         position: absolute;
                         left: 0;
                         bottom: -20px;

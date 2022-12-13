@@ -6428,15 +6428,12 @@ Menu Bar
 }
 .header__area-menu-bar-left-logo > a {
   display: inline-block;
-  background: #161b1f;
-  padding: 11px 25px;
+  padding: 20px 25px;
   padding-right: 40px;
-  padding-top: 31px;
   position: relative;
   z-index: 999;
 }
 .header__area-menu-bar-left-logo > a::after {
-  content: "";
   position: absolute;
   left: 0;
   bottom: -20px;
