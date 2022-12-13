@@ -4559,6 +4559,9 @@ Footer Two
   background: #21262a;
   padding: 100px 0;
 }
+.footer__two p {
+  color: #fff;
+}
 .footer__two-widget h5 {
   color: #fff;
 }
@@ -4570,7 +4573,7 @@ Footer Two
   position: relative;
   left: 0;
   transition: all 0.3s ease-out 0s;
-  color: #a4acb5;
+  color: #fff;
 }
 .footer__two-widget-menu ul li a:hover {
   left: 5px;
@@ -4588,7 +4591,7 @@ Footer Two
   margin: 0;
 }
 .footer__two-widget-contact p {
-  color: #a4acb5;
+  color: #fff;
   margin-bottom: 30px;
 }
 .footer__two-widget-contact-subscribe {

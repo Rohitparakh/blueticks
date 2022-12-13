@@ -158,6 +158,9 @@ Footer Two
 .footer__two {
     background: $border10;
     padding: 100px 0;
+    p{
+        color:$white;
+    }
     &-widget {
         h5 {
             color: $white;
@@ -171,7 +174,7 @@ Footer Two
                         position: relative;
                         left: 0;
                         transition: all 0.3s ease-out 0s;
-                        color: $border8;
+                        color: $white;
                         &:hover {
                             left: 5px;
                             color: $primary-color-1;
@@ -193,7 +196,7 @@ Footer Two
         }
         &-contact {
             p {
-                color: $border8;
+                color: $white;
                 margin-bottom: 30px;
             }
             &-subscribe {
