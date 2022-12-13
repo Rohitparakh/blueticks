@@ -5024,6 +5024,12 @@ Sponsors
 .sponsors__area-box {
   margin-bottom: 120px;
   padding-bottom: 45px;
+  border-bottom: 1px solid #ededed;
+}
+.sponsors__area-box .swiper-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sponsors__area-item {
   text-align: center;

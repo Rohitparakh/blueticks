@@ -2,6 +2,7 @@
 Sponsors
 ========================================================================== */
 .sponsors__area {
+   
     &-title {
         text-align: center;
     }
@@ -17,7 +18,12 @@ Sponsors
     &-box {
         margin-bottom: 120px;
         padding-bottom: 45px;
-        // border-bottom: 1px solid $border1;
+        border-bottom: 1px solid $border1;
+        .swiper-wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
     &-item {
         text-align: center;
