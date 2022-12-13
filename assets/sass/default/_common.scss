@@ -338,7 +338,27 @@ Theme Btn CSS
 	z-index: 1;
 	margin-bottom: 6px;
 }
-.subtitle-page-two {
+h2.subtitle-page-two {
+	display: inline-block;
+	position: relative;
+	font-weight: 700;
+	color: $primary-color;
+	text-transform: capitalize;
+	z-index: 1;
+	margin-bottom: 6px;
+	padding-right: 80px;
+	&::after {
+		position: absolute;
+		top: 50%;
+		content: '';
+		right: 0;
+		width: 65px;
+		height: 1px;
+		background: $primary-color-1;
+	}
+}
+
+span.subtitle-page-two {
 	display: inline-block;
 	position: relative;
 	font-weight: 700;
@@ -572,4 +592,8 @@ Video Animation CSS
         opacity: 0;
         transform: scale(2);
     }
+}
+
+.text-black{
+	color:#fff
 }

@@ -67,6 +67,10 @@ FAQ Two
     position: relative;
     z-index: 1;
     overflow: hidden;
+    li, li p, p{
+    color:#000;
+    font-weight: 500;
+    }
     &-page {
         background: $thin-bg;
     }

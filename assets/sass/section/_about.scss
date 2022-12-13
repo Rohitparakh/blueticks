@@ -102,6 +102,7 @@ About
 About Two
 ========================================================================== */
 .about__two {
+    
     &-left {
         margin-right: 50px;
         &-image {
@@ -212,6 +213,11 @@ About Two
         &-left {
             margin-right: 0;
         }
+    }
+}
+@media (max-width: 576px) {
+	.about__two {
+padding-top:10px;
     }
 }
 @media (max-width: 483px) {

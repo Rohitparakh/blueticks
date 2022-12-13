@@ -206,6 +206,7 @@
 	});
 	let sliderActive2 = '.banner-slide';
 	let sliderInit2 = new Swiper(sliderActive2, {
+		dots:true,
 		slidesPerView: 1,
 		effect: 'fade',
 		loop: true,
@@ -218,9 +219,9 @@
 			el: ".banner-dots",
 			clickable: true,
 		},
-		thumbs: {
-			swiper: swiper,
-		},
+		// thumbs: {
+		// 	swiper: swiper,
+		// },
 	});
 
 	function animated_swiper(selector, init) {

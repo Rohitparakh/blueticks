@@ -1,6 +1,18 @@
-/*==========================================================================
+.banner__two-area.swiper-slide {
+    opacity: 0 !important;
+    visibility: hidden;
+    // display: none;
+  }
+  
+  .banner__two-area.swiper-slide-active {
+    opacity: 1 !important;
+    visibility: visible;
+    // display: block;
+  }
+        /*==========================================================================
 Banner
 ========================================================================== */
+
 .banner__area {
     position: relative;  
     z-index: 1;
@@ -100,6 +112,7 @@ Banner Two
 .banner__two {
     &-area {
         overflow: hidden;
+            max-height:800px;
         &-image {
             position: absolute;
             left: 0;
@@ -136,6 +149,9 @@ Banner Two
             margin-bottom: 45px;
             font-size: 18px;
             line-height: 28px;
+        }
+        &-button{
+            margin-top: 20px;
         }
     }
     &-right {
@@ -262,10 +278,14 @@ Banner Two
     }
     .banner__two {
         &-content {
+            // padding: 0;
+            // padding-top: 90px;
+            // margin-bottom: 190px;
+            // text-align: center;
             padding: 0;
-            padding-top: 90px;
-            margin-bottom: 190px;
-            text-align: center;
+    padding-top: 160px;
+    margin-bottom: 190px;
+    text-align: center;
         }
         &-right {
             text-align: center;
@@ -290,6 +310,25 @@ Banner Two
     }
 }
 @media (max-width: 767px) {
+    .banner__two{
+        &-right{
+            display: none;
+            background: none !important;
+        }
+        &-thumb{
+            .swiper-wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+        }
+        &-thumb{
+            &-item{
+                margin-top:15px;
+
+            }
+        }
+    }
     .banner__area {
         &-image {
             &::after {
