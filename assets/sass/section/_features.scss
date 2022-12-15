@@ -9,6 +9,7 @@ Features Css
         position: relative;
         z-index: 1;
         padding: 70px 60px;
+        animation: pulse 2s infinite;                
         &::after {
             content: '';
             position: absolute;

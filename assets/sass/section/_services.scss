@@ -214,6 +214,9 @@ Services
 /*==========================================================================
 Services Two
 ========================================================================== */
+.services-two-slider{
+    animation: shakeY 6s infinite;                
+}
 .services__two {
     background-position: center;
     background-repeat: no-repeat;
@@ -257,7 +260,7 @@ Services Two
             text-align: center;
             transition: all 0.4s ease-out 0s;
             padding: 60px;
-    min-height: 592px;
+            min-height: 592px;
             &-icon {
                 width: 120px;
                 height: 120px;

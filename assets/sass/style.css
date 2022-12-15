@@ -47,6 +47,8 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  margin-left: 0.75em;
+  text-align: left;
 }
 
 .section-padding {
@@ -3184,12 +3186,20 @@ About
 /*==========================================================================
 About Two
 ========================================================================== */
+.about__two {
+  -webkit-animation: backInLeft 2s;
+          animation: backInLeft 2s;
+}
 .about__two-left {
   margin-right: 50px;
 }
 .about__two-left-image {
   position: relative;
   margin-bottom: 210px;
+}
+.about__two-left-image img {
+  -webkit-animation: pulse 5s infinite;
+          animation: pulse 5s infinite; /* referring directly to the animation's @keyframe declaration */
 }
 .about__two-left-image-one {
   position: absolute;
@@ -3230,6 +3240,10 @@ About Two
 }
 .about__two-right-contact-content h3 a:hover {
   color: #ec1113;
+}
+.about__two-right .theme-btn3 {
+  -webkit-animation: bounce 2s infinite;
+          animation: bounce 2s infinite;
 }
 
 @media (max-width: 1399px) {
@@ -4304,6 +4318,8 @@ Features Css
   position: relative;
   z-index: 1;
   padding: 70px 60px;
+  -webkit-animation: pulse 2s infinite;
+          animation: pulse 2s infinite;
 }
 .features__area-item::after {
   content: "";
@@ -5683,6 +5699,11 @@ Services
 /*==========================================================================
 Services Two
 ========================================================================== */
+.services-two-slider {
+  -webkit-animation: shakeY 6s infinite;
+          animation: shakeY 6s infinite;
+}
+
 .services__two {
   background-position: center;
   background-repeat: no-repeat;
@@ -6097,6 +6118,10 @@ Team Css
   width: 100px;
   height: 100px;
   display: block;
+}
+.team__area-item {
+  -webkit-animation: shakeY 15s infinite;
+          animation: shakeY 15s infinite;
 }
 .team__area-item-image {
   position: relative;
@@ -7198,6 +7223,10 @@ Error
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+#counter-stats .col-lg-2 {
+  -webkit-animation: shakeX 6s infinite;
+          animation: shakeX 6s infinite;
 }
 
 .stats {

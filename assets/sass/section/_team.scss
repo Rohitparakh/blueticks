@@ -45,6 +45,7 @@ Team Css
         }            
     }
     &-item {
+        animation: shakeY 15s infinite;                
         &-image {
             position: relative;
             &-icon {

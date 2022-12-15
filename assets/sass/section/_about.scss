@@ -102,12 +102,15 @@ About
 About Two
 ========================================================================== */
 .about__two {
-    
+    animation:backInLeft 2s;
     &-left {
         margin-right: 50px;
         &-image {
             position: relative;
             margin-bottom: 210px;
+            img{
+                animation: pulse 5s infinite; /* referring directly to the animation's @keyframe declaration */
+            }
             &-one {
                 position: absolute;
                 right: 0;
@@ -154,6 +157,9 @@ About Two
                     }
                 }
             }
+        }
+        .theme-btn3{
+            animation: bounce 2s infinite;
         }
     }
 }

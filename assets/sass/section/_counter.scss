@@ -8,6 +8,9 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
+  .col-lg-2{
+    animation: shakeX 6s infinite;                
+  }
 }
 
 .stats {
@@ -26,3 +29,4 @@
 }
 
 /*/ end count stats /*/
+
