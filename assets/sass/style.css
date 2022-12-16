@@ -5022,8 +5022,9 @@ Copyright Two
 }
 @media (max-width: 575px) {
   .footer__top-item {
-    justify-content: center;
     display: flex;
+    justify-content: left;
+    margin-left: 15%;
   }
 }
 /*==========================================================================
