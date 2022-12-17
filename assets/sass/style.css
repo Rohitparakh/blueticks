@@ -792,6 +792,11 @@ Video Animation CSS
     transform: rotateZ(359deg);
   }
 }
+.pulse {
+  -webkit-animation: pulse 4s infinite;
+          animation: pulse 4s infinite;
+}
+
 .mt-0 {
   margin-top: 0px;
 }
@@ -3159,6 +3164,8 @@ About
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  -webkit-animation: shakeX 10s infinite;
+          animation: shakeX 10s infinite;
 }
 .about__area-right-list h5 i {
   width: 40px;
@@ -3175,6 +3182,46 @@ About
 .about__area-right-list h5:last-child {
   margin: 0;
 }
+.about__area-right-list h5.shakeX:nth-child(1n) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.about__area-right-list h5.shakeX:nth-child(2n) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.about__area-right-list h5.shakeX:nth-child(3n) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+.about__area-right-list h5.shakeX:nth-child(4n) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.about__area-right-list h5.shakeX:nth-child(5n) {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+.about__area-right-list h5.shakeX:nth-child(6n) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+.about__area-right-list h5.shakeX:nth-child(7n) {
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+}
+.about__area-right-list h5.shakeX:nth-child(8n) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.about__area-right-list h5.shakeX:nth-child(9n) {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+.about__area-right-list h5.shakeX:nth-child(10n) {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
 .about__area-right-bottom {
   display: flex;
   align-items: center;
@@ -3182,6 +3229,10 @@ About
 }
 .about__area-right-bottom-item {
   margin-right: 40px;
+}
+.about__area-right-bottom-item .theme-btn1 {
+  -webkit-animation: headShake 1s infinite;
+          animation: headShake 1s infinite;
 }
 .about__area-right-bottom-item-author {
   display: flex;
@@ -5554,6 +5605,8 @@ Services
   transition: all 0.4s ease-out 0s;
   position: relative;
   z-index: 1;
+  -webkit-animation: shakeY 5s infinite;
+          animation: shakeY 5s infinite;
 }
 .services__area-item::after {
   content: "";

@@ -50,6 +50,7 @@ About
                 display: flex;
                 align-items: center;
                 margin-bottom: 20px;
+                animation: shakeX 10s infinite;
                 i {
                     width: 40px;
                     height: 40px;
@@ -66,6 +67,11 @@ About
                     margin: 0;
                 }
             }
+            @for $i from 1 through 10 {
+                h5.shakeX:nth-child(#{$i}n) {
+                    animation-delay: #{$i * 0.5}s;
+                }
+            }
         }
         &-bottom {
             display: flex;
@@ -73,6 +79,9 @@ About
             margin-top: 35px;
             &-item {
                 margin-right: 40px;
+                .theme-btn1{
+                    animation: headShake 1s infinite;
+                }
                 &-author {
                     display: flex;
                     align-items: center;

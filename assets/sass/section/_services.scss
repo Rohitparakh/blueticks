@@ -21,6 +21,7 @@ Services
         margin: 0 auto;
         text-align: center;
     }
+    
     &-item {
         padding: 60px;
         box-shadow: 0 0 70px $shadow;
@@ -28,6 +29,7 @@ Services
         transition: all 0.4s ease-out 0s;
         position: relative;
         z-index: 1;
+        animation:shakeY 5s infinite;        
         &::after {
             content: '';
             position: absolute;
