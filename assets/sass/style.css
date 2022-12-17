@@ -776,6 +776,22 @@ Video Animation CSS
   filter: hue-rotate(201deg);
 }
 
+.bluetick {
+  -webkit-animation: 2s rotate linear infinite;
+          animation: 2s rotate linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(359deg);
+  }
+}
 .mt-0 {
   margin-top: 0px;
 }
