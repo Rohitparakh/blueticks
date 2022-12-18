@@ -777,8 +777,8 @@ Video Animation CSS
 }
 
 .bluetick {
-  -webkit-animation: 2s rotate linear infinite;
-          animation: 2s rotate linear infinite;
+  -webkit-animation: 3.5s rotate linear infinite;
+          animation: 3.5s rotate linear infinite;
 }
 
 @keyframes rotate {
