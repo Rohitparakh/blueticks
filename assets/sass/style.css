@@ -7216,13 +7216,13 @@ Error
 .error__area-title h1 {
   font-size: 300px;
   line-height: 285px;
-  color: #fff;
+  color: #000000;
 }
 .error__area-title h3 {
   font-size: 30px;
   line-height: 40px;
   margin-bottom: 50px;
-  color: #fff;
+  color: #000000;
   font-weight: 400;
 }
 .error__area-title .theme-banner-btn i::before {
