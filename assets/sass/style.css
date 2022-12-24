@@ -3523,6 +3523,12 @@ Blog
   border-bottom: 1px solid #ededed;
 }
 
+.blog p {
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  line-height: 2em;
+}
+
 /*==========================================================================
 Blog Two
 ========================================================================== */
@@ -3864,6 +3870,9 @@ Blog Details
 }
 .blog__details-left img {
   width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
 }
 
 /*==========================================================================
