@@ -454,5 +454,25 @@ if(document.querySelector("#contact-form")){
 		  })
 		});
 	}
+
+	if(document.querySelector("#email-form")){
+
+		const form = document.getElementById('email-form');
+		form.addEventListener("submit", function(e) {
+		  e.preventDefault();
+		  const data = new FormData(form);
+		  const action = e.target.action;
+		  fetch(action, {
+			method: 'POST',
+			body: data,
+		  })
+		  .then(() => {
+			alert("Your submission has been recorded");
+			form.reset();
+		  }).catch(()=>{
+			alert("There was a problem submitting the form. Please try again later or contact via other methods!")
+		  })
+		});
+	}
 	  });
 	  
