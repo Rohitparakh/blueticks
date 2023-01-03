@@ -797,6 +797,10 @@ Video Animation CSS
           animation: pulse 4s infinite;
 }
 
+.innerDesc {
+  display: none;
+}
+
 .mt-0 {
   margin-top: 0px;
 }
@@ -3160,12 +3164,22 @@ About
 .about__area-right-list {
   margin-top: 35px;
 }
+.about__area-right-list div.shakeX {
+  -webkit-animation: shakeX 10s infinite;
+          animation: shakeX 10s infinite;
+  cursor: pointer;
+}
+.about__area-right-list div.shakeX h5 {
+  margin-bottom: 0;
+}
+.about__area-right-list div:not(.shakeX) h5 {
+  -webkit-animation: shakeX 10s infinite;
+          animation: shakeX 10s infinite;
+}
 .about__area-right-list h5 {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  -webkit-animation: shakeX 10s infinite;
-          animation: shakeX 10s infinite;
 }
 .about__area-right-list h5 i {
   width: 40px;
@@ -3182,43 +3196,43 @@ About
 .about__area-right-list h5:last-child {
   margin: 0;
 }
-.about__area-right-list h5.shakeX:nth-child(1n) {
+.about__area-right-list div:not(.shakeX) h5.shakeX:nth-child(1n), .about__area-right-list div.shakeX:nth-child(1n) {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
-.about__area-right-list h5.shakeX:nth-child(2n) {
+.about__area-right-list div:not(.shakeX) h5.shakeX:nth-child(2n), .about__area-right-list div.shakeX:nth-child(2n) {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
-.about__area-right-list h5.shakeX:nth-child(3n) {
+.about__area-right-list div:not(.shakeX) h5.shakeX:nth-child(3n), .about__area-right-list div.shakeX:nth-child(3n) {
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
 }
-.about__area-right-list h5.shakeX:nth-child(4n) {
+.about__area-right-list div:not(.shakeX) h5.shakeX:nth-child(4n), .about__area-right-list div.shakeX:nth-child(4n) {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
-.about__area-right-list h5.shakeX:nth-child(5n) {
+.about__area-right-list div:not(.shakeX) h5.shakeX:nth-child(5n), .about__area-right-list div.shakeX:nth-child(5n) {
   -webkit-animation-delay: 2.5s;
           animation-delay: 2.5s;
 }
-.about__area-right-list h5.shakeX:nth-child(6n) {
+.about__area-right-list div:not(.shakeX) h5.shakeX:nth-child(6n), .about__area-right-list div.shakeX:nth-child(6n) {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
 }
-.about__area-right-list h5.shakeX:nth-child(7n) {
+.about__area-right-list div:not(.shakeX) h5.shakeX:nth-child(7n), .about__area-right-list div.shakeX:nth-child(7n) {
   -webkit-animation-delay: 3.5s;
           animation-delay: 3.5s;
 }
-.about__area-right-list h5.shakeX:nth-child(8n) {
+.about__area-right-list div:not(.shakeX) h5.shakeX:nth-child(8n), .about__area-right-list div.shakeX:nth-child(8n) {
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
 }
-.about__area-right-list h5.shakeX:nth-child(9n) {
+.about__area-right-list div:not(.shakeX) h5.shakeX:nth-child(9n), .about__area-right-list div.shakeX:nth-child(9n) {
   -webkit-animation-delay: 4.5s;
           animation-delay: 4.5s;
 }
-.about__area-right-list h5.shakeX:nth-child(10n) {
+.about__area-right-list div:not(.shakeX) h5.shakeX:nth-child(10n), .about__area-right-list div.shakeX:nth-child(10n) {
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
 }

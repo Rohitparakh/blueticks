@@ -476,3 +476,9 @@ if(document.querySelector("#contact-form")){
 	}
 	  });
 	  
+
+const toggleDisplay=(e)=>{
+	// console.log(e.lastChild.previousElementSibling)
+	e.lastChild.previousElementSibling.classList.toggle("innerDesc");
+
+}
